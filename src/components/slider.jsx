@@ -1,12 +1,13 @@
 import ReactSlider from "react-slider";
 
-const Slider = ({ state, sliderName, lowerState, upperState }) => {
+const Slider = ({ state, sliderName, lowerState, middleState, upperState }) => {
 	return (
 		<div className="border-4 border-cyan-400 p-5">
 			<h2 className="underline">{sliderName}</h2>
 			<div className="mt-2 flex flex-row">
-				<p className="flex w-1/2 justify-start">{lowerState}</p>
-				<p className="flex w-1/2 justify-end">{upperState}</p>
+				<p className="flex w-1/3 justify-start text-left">{lowerState}</p>
+				<p className="flex w-1/3 justify-center text-center">{middleState}</p>
+				<p className="flex w-1/3 justify-end text-right">{upperState}</p>
 			</div>
 
 			<ReactSlider
