@@ -12,7 +12,7 @@ const Slider = ({ state, sliderName, lowerState, middleState, upperState }) => {
 
 			<ReactSlider
 				className="flex h-auto max-w-screen-sm border-2 border-indigo-800"
-				thumbClassName="w-10 border-4 border-cyan-500 text-center bg-black"
+				thumbClassName="w-10 border-4 border-cyan-500 text-center bg-black cursor-pointer"
 				trackClassName="trackColor"
 				renderThumb={(props, state) => <div {...props}>{state.valueNow}</div>}
 			/>

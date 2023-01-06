@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import Slider from "../components/slider";
 
-const GenPer = () => {
+const GeneratorRelationship = () => {
 	return (
 		<div className="m-10 flex flex-col gap-20">
 			<div className="mx-auto flex">
@@ -98,4 +98,4 @@ const GenPer = () => {
 	);
 };
 
-export default GenPer;
+export default GeneratorRelationship;

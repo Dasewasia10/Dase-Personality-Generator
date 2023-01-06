@@ -4,28 +4,37 @@
 
 .box {
 	@apply h-32
-		min-h-full
-		min-w-full
-		rounded-xl
-		bg-[#D9D9D9]
-		text-[#0D0D0D]
-		shadow-lg
-		hover:bg-[#010440]
-		hover:text-[#D9D9D9];
+	min-h-full
+	min-w-full
+	rounded-xl
+	bg-[#D9D9D9]
+	text-[#0D0D0D]
+	shadow-lg
+	hover:bg-[#010440]
+	hover:text-[#D9D9D9];
 }
 
 .dropdownItem {
 	@apply block 
-  bg-[#0D0D0D] 
-  py-2 
-  px-4
-  text-[#D9D9D9]
-  hover:bg-gray-100
-  hover:text-[#0D0D0D];
+	bg-[#0D0D0D] 
+	py-2 
+	px-4
+	text-[#D9D9D9]
+	hover:bg-gray-100
+	hover:text-[#0D0D0D];
 }
 
-.trackColor {
-	@apply relative
-bg-white
-text-black;
+.choosing {
+	@apply mt-10 
+	rounded-xl 
+	border-2 
+	border-[#D9D9D9] 
+	bg-[#010440]
+	py-2 
+	px-5 
+	text-center 
+	text-2xl 
+	hover:border-[#010440] 
+	hover:bg-[#D9D9D9] 
+	hover:text-[#010440];
 }
