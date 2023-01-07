@@ -1,6 +1,6 @@
 import ReactSlider from "react-slider";
 
-const Slider = ({ angka, sliderName, lowerState, middleState, upperState }) => {
+const Slider = ({ fungsi, sliderName, lowerState, middleState, upperState }) => {
 	return (
 		<div className="border-4 border-cyan-400 p-5">
 			<h2 className="underline">{sliderName}</h2>
@@ -15,7 +15,7 @@ const Slider = ({ angka, sliderName, lowerState, middleState, upperState }) => {
 				thumbClassName="w-10 border-4 border-cyan-500 text-center bg-black cursor-pointer"
 				trackClassName="trackColor"
 				renderThumb={(props, state) => <div {...props}>{state.valueNow}</div>}
-				onAfterChange={(e) => angka = e}
+				onAfterChange={(e) => fungsi(e)}
 			/>
 		</div>
 	);
