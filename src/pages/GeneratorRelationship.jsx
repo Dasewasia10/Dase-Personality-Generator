@@ -68,7 +68,7 @@ const GeneratorRelationship = () => {
 						<p className="text-center">
 							*Please upload 1x1 image & with PNG, JPEG or JPG format only
 						</p>
-						<AddPP dataURLKey="data_url" />
+						<AddPP />
 					</div>
 					<p className="flex justify-center text-center text-2xl underline">
 						Set Your OC's
@@ -192,7 +192,9 @@ const GeneratorRelationship = () => {
 					<div className="flex flex-col items-center justify-center gap-10 border-4 border-cyan-400 p-5">
 						<ul className="flex flex-col text-center">
 							<li className="mb-5">Name : {nameInput}</li>
-							<li>PP Image : <img src="data_url" alt="" /></li>
+							<li>
+								PP Image : <img src="" alt="" />
+							</li>
 							<li>Reply Chat : {replyChat}</li>
 							<li>Persona Vert : {persVert}</li>
 							<li>Persona Color : {persColor}</li>

@@ -1,9 +1,8 @@
 import React, { useState } from "react";
 import ImageUploading from "react-images-uploading";
 
-const AddPP = ({ dataURLKey }) => {
+const AddPP = () => {
 	const [images, setImages] = useState([]);
-	const maxNumber = 1;
 
 	const onChange = (imageList, addUpdateIndex) => {
 		// data for submit
@@ -21,18 +20,16 @@ const AddPP = ({ dataURLKey }) => {
 				resolutionWidth={1}
 				resolutionHeight={1}
 				onChange={onChange}
-				maxNumber={maxNumber}
-				dataURLKey="data_url">
-				{(
-					{
-						imageList,
-						onImageUpload,
-						onImageUpdate,
-						onImageRemove,
-						isDragging,
-						dragProps,
-					} // write your building UI
-				) => (
+				maxNumber={1}
+				dataURLKey={"data_url"}>
+				{({
+					imageList,
+					onImageUpload,
+					onImageUpdate,
+					onImageRemove,
+					isDragging,
+					dragProps,
+				}) => (
 					<div className="flex flex-col">
 						{imageList[0] ? null : (
 							<div className="mx-auto flex flex-row justify-center gap-4">
@@ -50,7 +47,12 @@ const AddPP = ({ dataURLKey }) => {
 								<div
 									key={index}
 									className="flex flex-col items-center justify-center gap-4">
-									<img src={image["data_url"]} alt="" width="300" />
+									<img
+										id="oc-pp"
+										src={image["data_url"]}
+										alt="OC PP"
+										width="300"
+									/>
 									<div className="flex flex-row gap-2">
 										<button
 											className="cursor-pointer rounded-xl border-2 border-[#D9D9D9] bg-[#010440] py-2 px-5 text-center text-xl hover:border-[#010440] hover:bg-[#D9D9D9] hover:text-[#010440]"
