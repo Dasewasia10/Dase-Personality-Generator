@@ -66,7 +66,9 @@ const GeneratorRelationship = () => {
 					</p>
 					<div className="flex h-auto flex-col items-center justify-center gap-5 border-4 border-cyan-400 p-5 text-center">
 						<p className="text-center">
-							*Please upload 1x1 image & with PNG, JPEG or JPG format only
+							*Please upload with PNG, JPEG or JPG format only<br />
+							**Recommend to upload image with 1:1 ratio<br />
+							***Max Size is 3MB
 						</p>
 						<AddPP />
 					</div>

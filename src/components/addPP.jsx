@@ -10,17 +10,20 @@ const AddPP = () => {
 		setImages(imageList);
 	};
 
+	const onError = (error, files) => {
+		console.log(error, files);
+	};
+
 	return (
 		<div className="">
 			<ImageUploading
 				multiple
 				value={images}
 				acceptType={["jpg", "jpeg", "png"]}
-				resolutionType={"ratio"}
-				resolutionWidth={1}
-				resolutionHeight={1}
 				onChange={onChange}
+				onError={onError}
 				maxNumber={1}
+				maxFileSize={3000000}
 				dataURLKey={"data_url"}>
 				{({
 					imageList,
@@ -47,12 +50,14 @@ const AddPP = () => {
 								<div
 									key={index}
 									className="flex flex-col items-center justify-center gap-4">
-									<img
-										id="oc-pp"
-										src={image["data_url"]}
-										alt="OC PP"
-										width="300"
-									/>
+									<a href={image["data_url"]} target="_blank">
+										<img
+											id="oc-pp"
+											src={image["data_url"]}
+											alt="OC PP"
+											width="300"
+										/>
+									</a>
 									<div className="flex flex-row gap-2">
 										<button
 											className="cursor-pointer rounded-xl border-2 border-[#D9D9D9] bg-[#010440] py-2 px-5 text-center text-xl hover:border-[#010440] hover:bg-[#D9D9D9] hover:text-[#010440]"
