@@ -19,16 +19,16 @@ const GeneratorRelationship = () => {
 	const changeFungsiValue = (id) => {
 		console.log(id);
 
-		const updatedSlideValue = slideValue.map((item, index) => {
-			console.log(item, index);
+		setSlideValue(
+			slideValue.map((item, index) => {
+				console.log(item, "Tab #" + index);
 
-			if (item.fungsiValue != id) {
-				return { ...item, fungsiValue: id };
-			}
-			return item;
-		});
-
-		setSlideValue(updatedSlideValue);
+				if (item.fungsiValue != id) {
+					return { ...item, fungsiValue: id };
+				}
+				return item;
+			})
+		);
 	};
 
 	useEffect(() => {

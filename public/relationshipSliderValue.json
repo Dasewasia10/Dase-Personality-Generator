@@ -16,5 +16,14 @@
 		"middleState": "",
 		"upperState": "Extroverted",
         "sliderTitle": "Persona Vert : "
+	},
+	{
+		"id": "persColor",
+		"sliderName": "Personality Color : ",
+		"fungsiValue": 0,
+		"lowerState": "Monochrome",
+		"middleState": "",
+		"upperState": "Colorful",
+        "sliderTitle": "Persona Color : "
 	}
 ]
