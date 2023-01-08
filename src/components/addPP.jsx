@@ -10,6 +10,8 @@ const AddPP = () => {
 		setImages(imageList);
 	};
 
+	console.log(images)
+	
 	const onError = (error, files) => {
 		console.log(error, files);
 	};

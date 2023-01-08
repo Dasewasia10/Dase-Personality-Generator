@@ -12,24 +12,18 @@ const GeneratorRelationship = () => {
 		setNameInput(event.target.value);
 	};
 
-	const url = "../relationshipSliderValue.json";
+	const url = "../config/relationshipSliderValue.json";
 
-	console.log(slideValue);
-
-	const changeFungsiValue = (id) => {
-		console.log(id);
-
-		setSlideValue(
-			slideValue.map((item, index) => {
-				console.log(item, "Tab #" + index);
-
-				if (item.fungsiValue != id) {
-					return { ...item, fungsiValue: id };
-				}
-				return item;
-			})
-		);
-	};
+	const changeFungsiValue = (id, value) => {
+        setSlideValue(
+            slideValue.map(item => {
+                if (item.sliderName == id) {
+                    return { ...item, "fungsiValue": value };
+                }
+                return item;
+            })
+        );
+    };
 
 	useEffect(() => {
 		axios

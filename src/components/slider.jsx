@@ -21,7 +21,7 @@ const Slider = ({
 				thumbClassName="w-10 border-4 border-cyan-500 text-center bg-black cursor-pointer"
 				trackClassName="trackColor"
 				renderThumb={(props, state) => <div {...props}>{state.valueNow}</div>}
-				onAfterChange={(e) => fungsi(e)}
+				onAfterChange={(e) => fungsi(sliderName, e)}
 			/>
 		</div>
 	);
