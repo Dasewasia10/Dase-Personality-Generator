@@ -1,6 +1,12 @@
 import ReactSlider from "react-slider";
 
-const Slider = ({ fungsi, sliderName, lowerState, middleState, upperState }) => {
+const Slider = ({
+	fungsi,
+	sliderName,
+	lowerState,
+	middleState,
+	upperState,
+}) => {
 	return (
 		<div className="border-4 border-cyan-400 p-5">
 			<h2 className="underline">{sliderName}</h2>

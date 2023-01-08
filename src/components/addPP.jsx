@@ -23,7 +23,7 @@ const AddPP = () => {
 				onChange={onChange}
 				onError={onError}
 				maxNumber={1}
-				maxFileSize={3000000}
+				maxFileSize={2000000}
 				dataURLKey={"data_url"}>
 				{({
 					imageList,

@@ -1,0 +1,20 @@
+[
+	{
+		"id": "replyChat",
+		"sliderName": "How Long to Reply Chat : ",
+		"fungsiValue": 0,
+		"lowerState": "Just in 1s",
+		"middleState": "",
+		"upperState": "Took Forever",
+        "sliderTitle": "Replying Chat : "
+	},
+	{
+		"id": "persVert",
+		"sliderName": "Personality Vert : ",
+		"fungsiValue": 0,
+		"lowerState": "Introverted",
+		"middleState": "",
+		"upperState": "Extroverted",
+        "sliderTitle": "Persona Vert : "
+	}
+]
