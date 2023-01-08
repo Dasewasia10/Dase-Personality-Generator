@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom";
 import Slider from "../components/slider";
+import AddPP from "../components/addPP";
 import React, { useState, useEffect } from "react";
 import axios from "axios";
-import AddPP from "../components/addPP";
 
 const GeneratorRelationship = () => {
 	const [nameInput, setNameInput] = useState("No Name");
@@ -19,15 +19,16 @@ const GeneratorRelationship = () => {
 	const changeFungsiValue = (id) => {
 		console.log(id);
 
-		let updatedList = slideValue.map((item) => {
-			if (item.id == id) {
-				return { ...item, fungsiValue: item.fungsiValue };
-			}
-			console.log(item);
-			return item;
-		});
+		setSlideValue(
+			slideValue.map((item) => {
+				console.log(item);
 
-		setSlideValue(updatedList);
+				if (item.id == id) {
+					return { ...item, fungsiValue: item.fungsiValue };
+				}
+				return item;
+			})
+		);
 	};
 
 	useEffect(() => {
