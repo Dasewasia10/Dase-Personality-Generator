@@ -4,26 +4,134 @@
 		"sliderName": "How Long to Reply Chat : ",
 		"fungsiValue": 0,
 		"lowerState": "Just in 1s",
-		"middleState": "",
+		"middleState": null,
 		"upperState": "Took Forever",
-        "sliderTitle": "Replying Chat : "
+		"sliderTitle": "Replying Chat : "
 	},
 	{
 		"id": "persVert",
 		"sliderName": "Personality Vert : ",
 		"fungsiValue": 0,
 		"lowerState": "Introverted",
-		"middleState": "",
+		"middleState": null,
 		"upperState": "Extroverted",
-        "sliderTitle": "Persona Vert : "
+		"sliderTitle": "Persona Vert : "
 	},
 	{
 		"id": "persColor",
 		"sliderName": "Personality Color : ",
 		"fungsiValue": 0,
 		"lowerState": "Monochrome",
-		"middleState": "",
+		"middleState": null,
 		"upperState": "Colorful",
-        "sliderTitle": "Persona Color : "
+		"sliderTitle": "Persona Color : "
+	},
+	{
+		"id": "insecureLv",
+		"sliderName": "Insecurity Level : ",
+		"fungsiValue": 0,
+		"lowerState": "Insecure",
+		"middleState": null,
+		"upperState": "Confident",
+		"sliderTitle": "Insecure Lv : "
+	},
+	{
+		"id": "dealingEx",
+		"sliderName": "Dealing with His/Her Ex : ",
+		"fungsiValue": 0,
+		"lowerState": "Can't move on",
+		"middleState": "Single AF",
+		"upperState": "Changing Partner Easily",
+		"sliderTitle": "Deal w/ Ex : "
+	},
+	{
+		"id": "someoneCalling",
+		"sliderName": "When Someone Calling : ",
+		"fungsiValue": 0,
+		"lowerState": "Ignore",
+		"middleState": null,
+		"upperState": "Fast Responds",
+		"sliderTitle": "Calling : "
+	},
+	{
+		"id": "dealingOppSex",
+		"sliderName": "Dealing with the Opposite Sex : ",
+		"fungsiValue": 0,
+		"lowerState": "I'm Gonna Die!",
+		"middleState": null,
+		"upperState": "Easy Peasy",
+		"sliderTitle": "Deal w/ Opposite Sex : "
+	},
+	{
+		"id": "wakingUp",
+		"sliderName": "Start Your Day : ",
+		"fungsiValue": 0,
+		"lowerState": "Early Bird",
+		"middleState": null,
+		"upperState": "Night Owl",
+		"sliderTitle": "Waking Up : "
+	},
+	{
+		"id": "socialMedia",
+		"sliderName": "Social Media : ",
+		"fungsiValue": 0,
+		"lowerState": "Not Interested",
+		"middleState": "Doesn't Care",
+		"upperState": "Actively",
+		"sliderTitle": "Social Media : "
+	},
+	{
+		"id": "innerPersonality",
+		"sliderName": "Inner Personality : ",
+		"fungsiValue": 0,
+		"lowerState": "Childish",
+		"middleState": "Average",
+		"upperState": "Mature",
+		"sliderTitle": "Inner Persona : "
+	},
+	{
+		"id": "hobbyMock",
+		"sliderName": "Someone Mock Your Hobby : ",
+		"fungsiValue": 0,
+		"lowerState": "Keep Calm",
+		"middleState": "Stay Cool, Heating Inside",
+		"upperState": "Angry AF!!!",
+		"sliderTitle": "Hobby Mock ? : "
+	},
+	{
+		"id": "conversation",
+		"sliderName": "On Conversation : ",
+		"fungsiValue": 0,
+		"lowerState": "StraightForward",
+		"middleState": null,
+		"upperState": "Complex",
+		"sliderTitle": "On Conversation : "
+	},
+	{
+		"id": "romanLv",
+		"sliderName": "Roman Level : ",
+		"fungsiValue": 0,
+		"lowerState": "Romance",
+		"middleState": null,
+		"upperState": "Humorous",
+		"sliderTitle": "Romance/Humorous ? : "
+	},
+	{
+		"id": "generalActivity",
+		"sliderName": "General Activity : ",
+		"fungsiValue": 0,
+		"lowerState": "Lock in Room All Day",
+		"middleState": null,
+		"upperState": "Love to Meet People",
+		"sliderTitle": "General Activity : "
+	},
+	{
+		"id": "hangsOut",
+		"sliderName": "Hangs Out : ",
+		"fungsiValue": 0,
+		"lowerState": "With Boys",
+		"middleState": null,
+		"upperState": "With Girls",
+		"sliderTitle": "HangsOut : "
 	}
 ]

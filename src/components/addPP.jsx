@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import ImageUploading from "react-images-uploading";
 
+import baseImg from "../assets/baseImg.png";
+
 const AddPP = () => {
 	const [images, setImages] = useState([]);
 
@@ -10,8 +12,8 @@ const AddPP = () => {
 		setImages(imageList);
 	};
 
-	console.log(images)
-	
+	console.log(images);
+
 	const onError = (error, files) => {
 		console.log(error, files);
 	};
@@ -27,52 +29,47 @@ const AddPP = () => {
 				maxNumber={1}
 				maxFileSize={2000000}
 				dataURLKey={"data_url"}>
-				{({
-					imageList,
-					onImageUpload,
-					onImageUpdate,
-					onImageRemove,
-					isDragging,
-					dragProps,
-				}) => (
+				{({ imageList, onImageUpload, onImageUpdate, onImageRemove }) => (
 					<div className="flex flex-col">
 						{imageList[0] ? null : (
-							<div className="mx-auto flex flex-row justify-center gap-4">
+							<div className="absolute right-0 flex h-96 w-1/4 overflow-hidden border-l-8 border-l-nearblue">
 								<button
-									className="cursor-pointer rounded-xl border-2 border-[#D9D9D9] bg-[#010440] py-2 px-5 text-center text-xl hover:border-[#010440] hover:bg-[#D9D9D9] hover:text-[#010440]"
-									style={isDragging ? { color: "red" } : undefined}
 									onClick={onImageUpload}
-									{...dragProps}>
-									Click or Drop here
+									className="flex cursor-pointer justify-end">
+									<img
+										src={baseImg}
+										className="flex h-full rounded-r-2xl object-cover"
+										alt="ocPp"
+										title="Click to Insert Image"
+									/>
 								</button>
 							</div>
 						)}
 						<div>
 							{imageList.map((image, index) => (
-								<div
-									key={index}
-									className="flex flex-col items-center justify-center gap-4">
-									<a href={image["data_url"]} target="_blank">
-										<img
-											id="oc-pp"
-											src={image["data_url"]}
-											alt="OC PP"
-											width="300"
-										/>
-									</a>
-									<div className="flex flex-row gap-2">
+								<>
+									<div
+										key={index}
+										className="absolute right-0 flex h-96 w-1/4 overflow-hidden">
 										<button
-											className="cursor-pointer rounded-xl border-2 border-[#D9D9D9] bg-[#010440] py-2 px-5 text-center text-xl hover:border-[#010440] hover:bg-[#D9D9D9] hover:text-[#010440]"
-											onClick={() => onImageUpdate(index)}>
-											Update
+											onClick={() => onImageUpdate(index)}
+											className="flex cursor-pointer justify-end">
+											<img
+												src={image["data_url"]}
+												className="flex h-full rounded-r-2xl object-cover"
+												alt="OC PP"
+												title="Click for Update; Remove button above"
+											/>
 										</button>
+									</div>
+									<div className="absolute top-5 right-7 flex flex-col justify-end gap-5 opacity-0 transition delay-75 duration-300 hover:opacity-90">
 										<button
-											className="rounded-xl bg-[#010440] p-2 text-center hover:bg-[#D9D9D9] hover:text-[#010440]"
+											className="cursor-pointer rounded-xl bg-[#010440] py-2 px-5 text-center text-sm hover:border-[#010440] hover:bg-[#D9D9D9] hover:text-[#010440]"
 											onClick={() => onImageRemove(index)}>
 											Remove
 										</button>
 									</div>
-								</div>
+								</>
 							))}
 						</div>
 					</div>
