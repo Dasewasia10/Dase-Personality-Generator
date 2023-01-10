@@ -6,13 +6,9 @@ import baseImg from "../assets/baseImg.png";
 const AddPP = () => {
 	const [images, setImages] = useState([]);
 
-	const onChange = (imageList, addUpdateIndex) => {
-		// data for submit
-		console.log(imageList, addUpdateIndex);
+	const onChange = (imageList) => {
 		setImages(imageList);
 	};
-
-	console.log(images);
 
 	const onError = (error, files) => {
 		console.log(error, files);
@@ -50,7 +46,7 @@ const AddPP = () => {
 								<>
 									<div
 										key={index}
-										className="absolute right-0 flex h-96 w-1/4 overflow-hidden">
+										className="absolute right-0 flex h-96 w-1/4 overflow-hidden border-l-8 border-l-nearblue">
 										<button
 											onClick={() => onImageUpdate(index)}
 											className="flex cursor-pointer justify-end">

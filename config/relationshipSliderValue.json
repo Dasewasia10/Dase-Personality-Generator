@@ -1,137 +1,145 @@
 [
 	{
 		"id": "replyChat",
-		"sliderName": "How Long to Reply Chat : ",
+		"sliderName": "How Long to Reply Chat",
 		"fungsiValue": 0,
 		"lowerState": "Just in 1s",
 		"middleState": null,
 		"upperState": "Took Forever",
-		"sliderTitle": "Replying Chat : "
+		"sliderTitle": "Replying Chat",
+		"colorName": "Silver grey",
+		"colorHexValue": "#8A9597"
 	},
 	{
 		"id": "persVert",
-		"sliderName": "Personality Vert : ",
+		"sliderName": "Personality Vert",
 		"fungsiValue": 0,
 		"lowerState": "Introverted",
 		"middleState": null,
 		"upperState": "Extroverted",
-		"sliderTitle": "Persona Vert : "
-	},
-	{
-		"id": "persColor",
-		"sliderName": "Personality Color : ",
-		"fungsiValue": 0,
-		"lowerState": "Monochrome",
-		"middleState": null,
-		"upperState": "Colorful",
-		"sliderTitle": "Persona Color : "
+		"sliderTitle": "Persona Vert",
+		"colorName": "Wine red",
+		"colorHexValue": "#5E2129"
 	},
 	{
 		"id": "insecureLv",
-		"sliderName": "Insecurity Level : ",
+		"sliderName": "Insecurity Level",
 		"fungsiValue": 0,
 		"lowerState": "Insecure",
 		"middleState": null,
 		"upperState": "Confident",
-		"sliderTitle": "Insecure Lv : "
+		"sliderTitle": "Insecure Lv",
+		"colorName": "Salmon range",
+		"colorHexValue": "#E55137"
 	},
 	{
 		"id": "dealingEx",
-		"sliderName": "Dealing with His/Her Ex : ",
+		"sliderName": "Dealing with His/Her Ex",
 		"fungsiValue": 0,
 		"lowerState": "Can't move on",
 		"middleState": "Single AF",
 		"upperState": "Changing Partner Easily",
-		"sliderTitle": "Deal w/ Ex : "
+		"sliderTitle": "Deal w/ Ex",
+		"colorName": "Green brown",
+		"colorHexValue": "#826C34"
 	},
 	{
 		"id": "someoneCalling",
-		"sliderName": "When Someone Calling : ",
+		"sliderName": "When Someone Calling",
 		"fungsiValue": 0,
 		"lowerState": "Ignore",
 		"middleState": null,
 		"upperState": "Fast Responds",
-		"sliderTitle": "Calling : "
+		"sliderTitle": "Calling",
+		"colorName": "Strawberry red",
+		"colorHexValue": "#D53032"
 	},
 	{
 		"id": "dealingOppSex",
-		"sliderName": "Dealing with the Opposite Sex : ",
+		"sliderName": "Dealing with the Opposite Sex",
 		"fungsiValue": 0,
 		"lowerState": "I'm Gonna Die!",
 		"middleState": null,
 		"upperState": "Easy Peasy",
-		"sliderTitle": "Deal w/ Opposite Sex : "
-	},
-	{
-		"id": "wakingUp",
-		"sliderName": "Start Your Day : ",
-		"fungsiValue": 0,
-		"lowerState": "Early Bird",
-		"middleState": null,
-		"upperState": "Night Owl",
-		"sliderTitle": "Waking Up : "
+		"sliderTitle": "Deal w/ Opposite Sex",
+		"colorName": "Traffic grey",
+		"colorHexValue": "#4E5452"
 	},
 	{
 		"id": "socialMedia",
-		"sliderName": "Social Media : ",
+		"sliderName": "Social Media",
 		"fungsiValue": 0,
 		"lowerState": "Not Interested",
 		"middleState": "Doesn't Care",
 		"upperState": "Actively",
-		"sliderTitle": "Social Media : "
+		"sliderTitle": "Social Media",
+		"colorName": "Curry",
+		"colorHexValue": "#9D9101"
 	},
 	{
 		"id": "innerPersonality",
-		"sliderName": "Inner Personality : ",
+		"sliderName": "Inner Personality",
 		"fungsiValue": 0,
 		"lowerState": "Childish",
 		"middleState": "Average",
 		"upperState": "Mature",
-		"sliderTitle": "Inner Persona : "
+		"sliderTitle": "Inner Persona",
+		"colorName": "Raspberry red",
+		"colorHexValue": "#C51D34"
 	},
 	{
 		"id": "hobbyMock",
-		"sliderName": "Someone Mock Your Hobby : ",
+		"sliderName": "Someone Mock Your Hobby",
 		"fungsiValue": 0,
 		"lowerState": "Keep Calm",
 		"middleState": "Stay Cool, Heating Inside",
 		"upperState": "Angry AF!!!",
-		"sliderTitle": "Hobby Mock ? : "
+		"sliderTitle": "Hobby Mock ?",
+		"colorName": "Clay brown",
+		"colorHexValue": "#734222"
 	},
 	{
 		"id": "conversation",
-		"sliderName": "On Conversation : ",
+		"sliderName": "On Conversation",
 		"fungsiValue": 0,
 		"lowerState": "StraightForward",
 		"middleState": null,
 		"upperState": "Complex",
-		"sliderTitle": "On Conversation : "
+		"sliderTitle": "On Conversation",
+		"colorName": "Signal red",
+		"colorHexValue": "#A52019"
 	},
 	{
 		"id": "romanLv",
-		"sliderName": "Roman Level : ",
+		"sliderName": "Roman Level",
 		"fungsiValue": 0,
 		"lowerState": "Romance",
 		"middleState": null,
 		"upperState": "Humorous",
-		"sliderTitle": "Romance/Humorous ? : "
+		"sliderTitle": "Romance / Humorous ?",
+		"colorName": "Light grey",
+		"colorHexValue": "#CBD0CC"
 	},
 	{
 		"id": "generalActivity",
-		"sliderName": "General Activity : ",
+		"sliderName": "General Activity",
 		"fungsiValue": 0,
 		"lowerState": "Lock in Room All Day",
 		"middleState": null,
 		"upperState": "Love to Meet People",
-		"sliderTitle": "General Activity : "
+		"sliderTitle": "General Activity",
+		"colorName": "Red lilac",
+		"colorHexValue": "#6D3F5B"
 	},
 	{
 		"id": "hangsOut",
-		"sliderName": "Hangs Out : ",
+		"sliderName": "Hangs Out",
 		"fungsiValue": 0,
 		"lowerState": "With Boys",
 		"middleState": null,
 		"upperState": "With Girls",
-		"sliderTitle": "HangsOut : "
+		"sliderTitle": "HangsOut",
+		"colorName": "Ocean blue",
+		"colorHexValue": "#1D334A"
 	}
 ]

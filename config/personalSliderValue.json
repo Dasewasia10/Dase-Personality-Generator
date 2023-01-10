@@ -1,0 +1,74 @@
+[
+	{
+		"id": "persVert",
+		"sliderName": "Personality Vert",
+		"fungsiValue": 0,
+		"lowerState": "Introverted",
+		"middleState": null,
+		"upperState": "Extroverted",
+		"sliderTitle": "Persona Vert"
+	},
+	{
+		"id": "persColor",
+		"sliderName": "Personality Color",
+		"fungsiValue": 0,
+		"lowerState": "Monochrome",
+		"middleState": null,
+		"upperState": "Colorful",
+		"sliderTitle": "Persona Color"
+	},
+	{
+		"id": "insecureLv",
+		"sliderName": "Insecurity Level",
+		"fungsiValue": 0,
+		"lowerState": "Insecure",
+		"middleState": null,
+		"upperState": "Confident",
+		"sliderTitle": "Insecure Lv"
+	},
+	{
+		"id": "wakingUp",
+		"sliderName": "Start Your Day",
+		"fungsiValue": 0,
+		"lowerState": "Early Bird",
+		"middleState": null,
+		"upperState": "Night Owl",
+		"sliderTitle": "Waking Up"
+	},
+	{
+		"id": "socialMedia",
+		"sliderName": "Social Media",
+		"fungsiValue": 0,
+		"lowerState": "Not Interested",
+		"middleState": "Doesn't Care",
+		"upperState": "Actively",
+		"sliderTitle": "Social Media"
+	},
+	{
+		"id": "innerPersonality",
+		"sliderName": "Inner Personality",
+		"fungsiValue": 0,
+		"lowerState": "Childish",
+		"middleState": "Average",
+		"upperState": "Mature",
+		"sliderTitle": "Inner Persona"
+	},
+	{
+		"id": "conversation",
+		"sliderName": "On Conversation",
+		"fungsiValue": 0,
+		"lowerState": "StraightForward",
+		"middleState": null,
+		"upperState": "Complex",
+		"sliderTitle": "On Conversation"
+	},
+	{
+		"id": "romanLv",
+		"sliderName": "Roman Level",
+		"fungsiValue": 0,
+		"lowerState": "Romance",
+		"middleState": null,
+		"upperState": "Humorous",
+		"sliderTitle": "Romance / Humorous ?"
+	}
+]
