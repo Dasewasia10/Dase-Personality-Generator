@@ -41,16 +41,17 @@ const Generator = ({ titlePage }) => {
 	const url =
 		"https://dase-oc-persona.netlify.app/relationshipSliderValue.json";
 
+	const url2 = "../public/relationshipSliderValue.json";
 	useEffect(() => {
 		axios
-			.get(url)
+			.get(url2)
 			.then((res) => setSlideValue(res.data))
 			.catch((err) => console.log(err));
 	}, []);
 
 	return (
-		<div className="flex flex-col gap-16">
-			<div className="z-40 mt-5 flex -translate-x-10 items-center justify-end gap-5">
+		<div className="flex flex-col">
+			<div className="absolute right-10 z-40 mt-5 flex w-96 items-center justify-end gap-5">
 				<Link to="/select-generator">
 					<p
 						className="rounded-l-3xl border-2 border-lightone bg-darkone px-4 py-1 text-center text-lightone duration-150 hover:border-darkone hover:bg-lightone hover:text-darkone"
@@ -61,6 +62,7 @@ const Generator = ({ titlePage }) => {
 				</Link>
 				<p className="text-center text-xl lg:text-2xl">{titlePage}</p>
 			</div>
+			<div className="mt-28"></div>
 			<div className="absolute top-20 left-1/2 flex -translate-x-4 gap-2 opacity-60 transition delay-75 duration-300 hover:opacity-90">
 				<button
 					className="flex cursor-pointer flex-row items-center gap-2 rounded-xl bg-darkone px-4 py-1 text-center text-sm text-lightone hover:border-darkone hover:bg-lightone hover:text-darkone"
