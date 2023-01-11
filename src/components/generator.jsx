@@ -38,7 +38,8 @@ const Generator = ({ titlePage }) => {
 		link.click();
 	};
 
-	const url = "../public/relationshipSliderValue.json";
+	const url =
+		"https://dase-oc-persona.netlify.app/relationshipSliderValue.json";
 
 	useEffect(() => {
 		axios
