@@ -19,10 +19,10 @@
 
 @font-face {
 	font-family: "Courgette";
-	src: url("../config/Courgette.ttf");
+	src: url("../src/assets/Courgette.ttf");
 }
 
 @font-face {
 	font-family: "IndieFlower";
-	src: url("../config/IndieFlower.ttf");
+	src: url("../src/assets/IndieFlower.ttf");
 }

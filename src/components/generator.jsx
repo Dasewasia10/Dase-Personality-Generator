@@ -10,12 +10,6 @@ import AddPP from "./addPP";
 const Generator = ({ titlePage }) => {
 	const [nameInput, setNameInput] = useState("No Name");
 	const [slideValue, setSlideValue] = useState([]);
-
-	const half_length = Math.ceil(slideValue.length / 2);
-
-	const leftSide = slideValue.slice(0, half_length);
-	const rightSide = slideValue.slice(half_length, slideValue.length);
-
 	const handleChange = (event) => {
 		setNameInput(event.target.value);
 	};
@@ -44,7 +38,7 @@ const Generator = ({ titlePage }) => {
 		link.click();
 	};
 
-	const url = "../config/relationshipSliderValue.json";
+	const url = "../public/relationshipSliderValue.json";
 
 	useEffect(() => {
 		axios
