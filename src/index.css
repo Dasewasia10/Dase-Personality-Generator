@@ -17,13 +17,12 @@
 	hover:text-[#010440];
 }
 
-.littleLabel {
-	@apply flex 
-	w-16
-	text-[8px];
-}
-
 @font-face {
 	font-family: "Courgette";
 	src: url("../config/Courgette.ttf");
+}
+
+@font-face {
+	font-family: "IndieFlower";
+	src: url("../config/IndieFlower.ttf");
 }
