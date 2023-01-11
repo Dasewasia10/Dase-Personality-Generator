@@ -41,10 +41,11 @@ const Generator = ({ titlePage }) => {
 	const url =
 		"https://dase-oc-persona.netlify.app/relationshipSliderValue.json";
 
-	const url2 = "../public/relationshipSliderValue.json";
+	const url2 = "../relationshipSliderValue.json";
+
 	useEffect(() => {
 		axios
-			.get(url2)
+			.get(url)
 			.then((res) => setSlideValue(res.data))
 			.catch((err) => console.log(err));
 	}, []);
